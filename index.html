@@ -3,71 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Goldbach GPS – Probabilistic Justification</title>
-  <style>
-    body {
-      font-family: Georgia, serif;
-      margin: 40px auto;
-      max-width: 800px;
-      line-height: 1.6;
-      color: #333;
-      background-color: #fafafa;
-      padding: 0 20px;
-    }
-    h1 {
-      color: #9b0000;
-      text-align: center;
-    }
-    h2 {
-      color: #444;
-      margin-top: 2em;
-    }
-    a {
-      color: #0066cc;
-    }
-    .link-block {
-      background: #eee;
-      padding: 10px;
-      border-left: 4px solid #9b0000;
-      margin: 20px 0;
-    }
-    .footer {
-      margin-top: 3em;
-      font-size: 0.9em;
-      color: #555;
-      text-align: center;
-    }
-  </style>
+  <title>Probabilistic Justification of the GPS-Goldbach Model</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Probabilistic Justification of the GPS Model for Goldbach’s Conjecture</h1>
-  <p><strong>Author:</strong> Bahbouhi Bouchaib<br>
-     <strong>Independent researcher, Nantes, France</strong></p>
+  <h1>Probabilistic Justification of the GPS-Goldbach Model</h1>
+  <h3>Bahbouhi Bouchaib, Independent Researcher, Nantes, France</h3>
 
-  <p>This page provides open access to the article proposing a probabilistic justification of a GPS-like algorithm that predicts Goldbach pairs for even numbers up to <strong>10<sup>10,000</sup></strong>. The GPS model uses an optimal prime gap interval centered at E/2, showing strong agreement with known theorems on prime distribution.</p>
-
-  <h2>📄 Download Article</h2>
-  <p><a href="Probabilistic_Justification_Goldbach_GPS-1.docx" download>Click here to download the full article (Word .docx)</a></p>
-
-  <h2>🔗 Interactive Calculators</h2>
-  <div class="link-block">
-    ➤ <a href="https://bouchaib542.github.io/Goldbach-Orbit-Method/" target="_blank">Goldbach Orbit Method</a> – Analyzes even numbers using orbital prime layers around √E.  
-    <br>
-    ➤ <a href="https://bouchaib542.github.io/goldbach-sqrt-predictor/" target="_blank">Goldbach √E Predictor</a> – Detects a valid prime pair near E/2 using a minimal probabilistic interval.
-  </div>
-
-  <h2>About the Research</h2>
-  <p>The article rigorously compares the GPS interval with classical results such as Cramér’s conjecture, the Prime Number Theorem, and Hardy–Littlewood estimates. It concludes that the GPS gap
+  <h2>Abstract</h2>
+  <p>
+    We present a probabilistic justification for the GPS-Goldbach model based on a mathematical expression of the prime gap centered around E/2. Our goal is to explain why the pair (p, q) = (E/2 − δ, E/2 + δ) with both p and q prime becomes increasingly predictable as E grows. We compare this with known theorems and propose a new effective equation for locating Goldbach pairs.
   </p>
+
+  <h2>1. Introduction</h2>
+  <p>
+    The Goldbach Conjecture asserts that every even integer greater than 2 can be expressed as the sum of two primes. Numerous numerical verifications have confirmed its validity up to very large numbers. Our approach aims to provide a new probabilistic explanation based on an efficient predictive interval centered around E/2 and defined by:
+  </p>
+  <blockquote>
+    δ(E) ≈ √E · (log log E) / log E
+  </blockquote>
+  <p>
+    We call this the "GPS gap", and it functions as a predictive radius within which we expect to find both prime numbers (p, q) such that p + q = E. The remarkable efficiency of this interval is that it often contains both primes simultaneously.
+  </p>
+
+  <h2>2. Comparison to Known Theorems</h2>
+  <p>
+    Our GPS gap aligns closely with major probabilistic models such as Cramér’s model [1], the Prime Number Theorem [2], and bounds given in Hardy–Littlewood formulations [3]. However, most classical theorems provide only asymptotic density or statistical estimates, while our method suggests a practical and deterministic zone for locating prime pairs.
+  </p>
+
+  <h2>3. Main Result and Observations</h2>
+  <p>
+    For any even number E ≥ 10⁶, computing δ(E) gives an interval I = [E/2 − δ, E/2 + δ]. Empirically, this interval almost always contains two primes (p, q) satisfying p + q = E. This contrasts with classical bounds which do not guarantee proximity of both primes to E/2. Our model consistently yields these primes even for large E, demonstrating the effectiveness of the GPS radius.
+  </p>
+
+  <h2>4. Discussion and Implications</h2>
+  <p>
+    We interpret the GPS interval as a probabilistic well where the prime pair (p, q) “falls” into a symmetrical zone around E/2. This leads to the conjecture:
+  </p>
+  <blockquote>
+    For every even number E ≥ 4, the interval I(E) = [E/2 − δ(E), E/2 + δ(E)] contains at least one pair (p, q) of primes such that E = p + q.
+  </blockquote>
+  <p>
+    This can be viewed as a practical reformulation of the Strong Goldbach Conjecture, now expressed in a predictive, bounded form. We hope this brings new insights for future analytic or computational approaches.
+  </p>
+
+  <h2>5. References</h2>
   <ul>
-    <li>Is smaller than Cramér’s √E log²E bound,</li>
-    <li>Provides simultaneous detection of two primes p and q around E/2,</li>
-    <li>Is sufficient to justify the truth of Goldbach’s conjecture up to extremely large numbers.</li>
+    <li>[1] Cramér, H. (1936). On the order of magnitude of the difference between consecutive prime numbers. <i>Acta Arithmetica</i>.</li>
+    <li>[2] Hadamard, J. and de la Vallée Poussin, C.J. (1896). Proof of the Prime Number Theorem.</li>
+    <li>[3] Hardy, G.H., and Littlewood, J.E. (1923). Some problems of ‘Partitio Numerorum’ III. On the expression of a number as a sum of primes. <i>Acta Mathematica</i>.</li>
   </ul>
 
-  <div class="footer">
-    &copy; 2025 Bahbouhi Bouchaib | Public Research Initiative | No reproduction without citation
-  </div>
+  <footer>
+    <p>Website by Bahbouhi Bouchaib · 2025 · Public research initiative</p>
+    <p><a href="https://bouchaib542.github.io/Goldbach-Orbit-Method/">Goldbach Orbit Method</a> | 
+       <a href="https://bouchaib542.github.io/goldbach-sqrt-predictor/">Goldbach √ Predictor</a></p>
+  </footer>
+
 </body>
 </html>
