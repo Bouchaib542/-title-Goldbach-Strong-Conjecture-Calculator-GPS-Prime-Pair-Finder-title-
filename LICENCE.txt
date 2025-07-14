@@ -1,0 +1,9 @@
+Copyright © 2025 Bahbouhi Bouchaib
+
+All rights reserved. This work, including its mathematical method, text, figures, and implementation, is the sole intellectual property of Bahbouhi Bouchaib, independent researcher based in Nantes, France.
+
+Any reproduction, modification, redistribution, or commercial use without the explicit written consent of the author is strictly prohibited.
+
+This method is publicly visible for academic and educational purposes only, but remains entirely owned by its creator.
+
+Contact: bahbouhibouchaib524@gmail.com
