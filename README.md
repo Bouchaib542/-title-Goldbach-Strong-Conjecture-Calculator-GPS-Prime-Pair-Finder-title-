@@ -11,7 +11,7 @@ which almost always contains two primes (p, q) such that p + q = E, even for ver
 It offers a narrow and effective alternative to classical theorems and may open new paths toward a proof of the strong Goldbach Conjecture.
 
 📄 **Read the full article**:  
-👉 The complete article is published directly on the [project website](https://bouchaib542.github.io/Probabilistic-Justification-of-Goldbach-s-GPS-Model/), via `index.html`.
+👉 The complete article is published directly on the [project website](https://bouchaib542.github.io/Probabilistic-Goldbach-GPS/), via `index.html`.
 
 🌐 **Related Projects**:
 - 🔗 [Goldbach √-Predictor Site](https://bouchaib542.github.io/goldbach-sqrt-predictor/)
