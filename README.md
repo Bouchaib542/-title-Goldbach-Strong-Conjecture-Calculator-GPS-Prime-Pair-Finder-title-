@@ -1,8 +1,8 @@
-# Goldbach Strong Conjecture Calculator – GPS Prime Pair Finder
+# Probabilistic Justification of Goldbach’s GPS Model
 
 This repository presents the article:
 
-**Probabilistic Justification of the GPS Model for Goldbach's Conjecture**  
+**Probabilistic Justification of Goldbach’s GPS Model**  
 *by Bahbouhi Bouchaib, Independent Researcher, Nantes, France*
 
 🧠 This article proposes a new conjecture based on the interval  
